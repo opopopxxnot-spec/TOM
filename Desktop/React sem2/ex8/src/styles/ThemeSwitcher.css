@@ -1,0 +1,83 @@
+.theme-switcher {
+  background: #fffacd;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #ffc107;
+  margin-bottom: 20px;
+}
+
+.theme-switcher h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.setting {
+  margin-bottom: 20px;
+}
+
+.setting label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #555;
+}
+
+.theme-btn {
+  padding: 10px 20px;
+  border: 2px solid #ffc107;
+  background-color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s;
+  min-width: 150px;
+}
+
+.theme-btn.light:hover {
+  background-color: #fff8dc;
+}
+
+.theme-btn.dark {
+  background-color: #333;
+  color: white;
+  border-color: #666;
+}
+
+.theme-btn.dark:hover {
+  background-color: #555;
+}
+
+.font-size-options {
+  display: flex;
+  gap: 10px;
+}
+
+.font-btn {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.font-btn:hover {
+  border-color: #ffc107;
+}
+
+.font-btn.active {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: white;
+  font-weight: bold;
+}
+
+.preview {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  text-align: center;
+  transition: font-size 0.3s;
+}
